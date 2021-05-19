@@ -1,21 +1,58 @@
-div.main {
+	
+	.main 	{
 			color: white;
-			font-size: 13px;
+			font-size: 15px;
 			line-height: 20px;
 			font-weight: 400;
-			text-align: justify;
-			background-color: #006696;
+			background-color: green;
 			width: 1200px;
 			overflow: auto;
 			margin: 0 auto;
 			font-family: Comic Sans MS, Comic Sans, cursive;
 			text-shadow: 1px 0px 5px black;
-			padding: 0px 33px;
-			border: 3px solid white;
+			padding: 20px 35px;
 			box-sizing: border-box;
-			box-shadow: 0 0 250px blue;
+			text-align: justify;
+			border-radius: 0px;
+			border: 1px solid lightgreen;
+
 			}
-div>h1,h2,h3
-			{color: yellow; 
+
+	.img_center 
+			{text-align: center;}			
+
+	h1		{color: red; 
+			text-shadow: 3px 1px 5px black; 
+			text-align: center;
+			font-size: 55px;
+			line-height: 100px
+			}
+
+	h2,h3  	{color: yellow; 
+			font-size: 25px;
 			text-shadow: 3px 1px 5px black; 
 			text-align: center;}
+
+	.money {  
+			font-size: 36px;
+			color:blue;
+			}
+	.italic {font-style:italic
+			;}		
+
+ 	.brd	
+			{
+    		overflow: auto;
+    		height: auto;
+    		padding: 7px;
+    		margin-bottom: 10px;
+    		border: 1px solid lightgreen;
+    		}   
+    .brd_overflow 
+    		{overflow-y: scroll;
+    		height: 250px;
+    		padding: 7px;
+    		margin-bottom: 10px;
+    		border: 1px solid lightgreen;}
+
+    .my_img {opacity: 0.7}
