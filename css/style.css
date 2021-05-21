@@ -1,3 +1,5 @@
+html,body {scroll-behavior: smooth;}
+
 .main 	{
 			color: white;
 			font-size: 15px;
@@ -14,19 +16,17 @@
 			text-align: justify;
 			border-radius: 0px;
 			border: 1px solid lightgreen;
-			scroll-behavior: smooth;
-
 			}
 
 	.img_center 
 			{text-align: center;}
 
 
-	h1		{color: red; 
+	h1		{color: yellow; 
 			text-shadow: 3px 1px 5px black; 
 			text-align: center;
 			font-size: 55px;
-			line-height: 100px
+			line-height: 100px;
 			}
 
 	h2,h3  	{color: yellow; 
